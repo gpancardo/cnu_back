@@ -3,7 +3,7 @@
     <label for="metodoLogin">Nombre de usuario o e-mail</label>
     <input type="text" id="metodoLogin" name="metodoLogin" required>
     <script>
-        if(document.getElementById("metodoLogin").value.includes("@")){
+        if(document.getElementById("metodoLogin").value.includes("@") and document.getElementById("metodoLogin").value.includes(".")){
             document.getElementById("metodoLogin").name = "email";
         } else {
             document.getElementById("metodoLogin").name = "usuario";
