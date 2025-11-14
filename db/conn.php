@@ -34,6 +34,7 @@ try {
     telefono TEXT,
     carrera TEXT NOT NULL,
     campus TEXT NOT NULL,
+    rol  int default 0,
     fecha_registro DATETIME DEFAULT CURRENT_TIMESTAMP
 );
         

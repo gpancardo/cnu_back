@@ -30,6 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['telefono'] = $telefono;
         $_SESSION['carrera'] = $carrera;
         $_SESSION['campus'] = $campus;
+        $_SESSION['rol'] = $rol;
 
         echo "Registro exitoso. ¡Bienvenid@!";
 

@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1>Oferta de cursos</h1>
-    
+    <?php 
+    require_once "controllers/administracionCursos/topCursos.php";
+    ?>
 </body>
 </html>
